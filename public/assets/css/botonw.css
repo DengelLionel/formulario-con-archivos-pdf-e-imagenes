@@ -1,0 +1,22 @@
+.boton_whatssapp img{
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+ 
+    
+}
+.boton_whatssapp{
+   
+    margin-right: 50px;
+    position: fixed;
+    z-index: 555;
+    top: 80%;
+    left: 85%;
+}
+.boton_whatssapp img:hover{
+    background-color: rgba(35, 194, 105,.8);
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}

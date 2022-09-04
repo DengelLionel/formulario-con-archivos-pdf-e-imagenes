@@ -1,0 +1,61 @@
+.firmas{
+    position: relative;
+    left: 20%;
+    margin-top: 3%;
+}
+h2{
+    position: relative;
+    left: 2%;
+}
+a{
+    width: 300px;
+
+    border-radius: 10px 10px 10px;
+    background-color: rgb(16, 87, 228);
+    padding: 12px;
+    margin: 6px;
+    color: beige;
+}
+a:hover{
+    color: white;
+    background-color: rgb(5, 63, 178);
+}
+ @media screen and (min-width: 360px) {
+    .firmas{
+      display: grid;
+      grid-template-columns: auto;
+
+    }
+    h2{
+        position: relative;
+    left: 2%;
+    }
+    a{
+        width: 200px;
+        padding: 12px;
+        border-radius: 10px 10px 10px;
+        text-align: center;
+ 
+    }
+ }
+ @media screen and (min-width: 760px) {
+    .firmas{
+     
+        position: relative;
+        left: 20%;
+        margin-top: 3%;
+    }
+    h2{
+        position: relative;
+        left: 2.5%;
+    }
+    a{
+        width: 300px;
+
+        border-radius: 10px 10px 10px;
+        background-color: rgb(16, 87, 228);
+        padding: 12px;
+        margin: 6px;
+        color: beige;
+    }
+ }

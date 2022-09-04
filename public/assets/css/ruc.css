@@ -1,0 +1,13 @@
+.pdf_container{
+    display: none;
+}
+.pdf_container_activo{
+    display: block;
+}
+@media  screen and (min-width: 320px) and (max-width: 480px){
+  
+    .pdf_container{
+        width: 100%;
+    }
+   
+}

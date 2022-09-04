@@ -1,0 +1,46 @@
+.tip_certificado{
+    width: 25%;
+    margin: 4px;
+}
+.bloque_dos{
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+
+}
+.boton_enviar{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    background-color: #0A1ED3;
+    font-weight: 900;
+    color: white;
+    padding: 8px;
+    width: 25%;
+    border: none;
+    border-radius: 25px;
+}
+.boton:hover{
+    background-color: #0d155e;
+}
+@media  screen and (min-width: 320px) and (max-width: 480px){
+    .tip_certificado{
+        width: 100%;
+        margin: 1px;
+    }
+    .contenedor_g{
+        width: 100%;
+    }
+    .bloque_dos{
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto;
+    
+    }
+    .boton{
+        width:100%;
+        
+    }
+}

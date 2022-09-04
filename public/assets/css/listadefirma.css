@@ -1,0 +1,16 @@
+.persona_natural{
+    display: none;
+
+    
+}
+.persona_natural_activo{
+    display: block;
+
+}
+.personalegalj{
+    display: none;
+
+}
+.personalegalj_activo{
+    display: block;
+}
